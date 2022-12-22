@@ -1,4 +1,4 @@
-# Доповнити декоратор сache підтримкою max_limit.
+# Декоратор сache з підтримкою max_limit.
 # Алгоритм кешування LFU: https://en.wikipedia.org/wiki/Least_frequently_used
 
 import functools
@@ -62,8 +62,3 @@ fetch_url('https://duckduckgo.com')
 fetch_url('https://apple.com')
 fetch_url('https://www.python.org')
 fetch_url._cache
-
-
-
-
-
